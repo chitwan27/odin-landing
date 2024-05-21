@@ -1,5 +1,6 @@
 #god{
-    height: 100vh;
+    height: 200vh;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,6 +84,23 @@ button{
     height:200px;
 }
 
+#quote{
+    background-color: #E5E7EB;
+    width: auto;
+    min-height:350px;
+
+    box-sizing: border-box;
+    padding:100px 350px;
+}
+#qtext{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+#qspeaker{
+    text-align: end;
+    font-weight: bold;
+}
 #call{
     height:150px;
     margin: 0 300px;
