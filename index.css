@@ -1,5 +1,5 @@
 #god{
-    height: 200vh;
+    height: 250vh;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -83,12 +83,45 @@ button{
     max-width:500px;
     height:200px;
 }
-
+#info{
+    width: auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#txt{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:125px;
+    gap:5px;
+}
+#cbox{
+    width:125px;
+    height:125px;
+    border: 5px solid rgb(0, 144, 255);
+    border-radius: 15px;
+}
+#ctext{
+    text-align: center;
+}
 #quote{
     background-color: #E5E7EB;
     width: auto;
     min-height:350px;
-
     box-sizing: border-box;
     padding:100px 350px;
 }
@@ -107,7 +140,6 @@ button{
     background-color: #3882f6;
     border-radius: 10px;
     color:aliceblue;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -120,7 +152,6 @@ button{
     height:75px;
     color: white;
     background-color: #1f2937;
-
     display: flex;
     justify-content: center;
     align-items: center;
