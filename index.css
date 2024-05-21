@@ -1,0 +1,41 @@
+#hero{
+    background-color: #1f2937;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:75px;
+}
+#links{
+    font-size: 18px;
+    color:#E5E7EB;
+    display:flex;
+    gap:25px;
+}
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+    flex-shrink: 0;
+}
+
+#img{
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    
+    width:500px;
+    height:200px;
+}
+#hmain{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8
+}
+#hsec{
+    font-size: 18px;
+    color:#E5E7EB;
+}
